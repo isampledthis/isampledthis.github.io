@@ -5,5 +5,28 @@
     <meta name="description" id="iSampledThis - artists post their samples, sources, inspirations" />
   </head>
   <body>
+    <header>
+      <img />
+      <div id="navbar">
+        <li><a>Home</a></li>
+        <li><a>Artists</a></li>
+        <li><a href="beattapecentral.tumblr.com">To Beat Tape Central -&gt;</a></li>
+      </div>
+    </header>
+    <div id="welcome">
+      <h5>Welcome to iSampledThis, where hip hop artists from all around the world can share their samples, their sources, their inspirations. We are dedicated to the spread and life of good music and to communication amongst artists.</h5>
+      <button id="signup">SIGN UP</button>
+      <button id="signin">SIGN IN</button>
+    </div>
   </body>
+  <script>
+    $(document).ready(function(){
+			$("#signup").click(function(){
+				window.location.href="signup.html";
+			});
+			$("#signin").click(function(){
+				window.location.href="signin.html";
+			});
+		});
+  </script>
 </html>
